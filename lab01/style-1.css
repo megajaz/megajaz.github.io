@@ -1,3 +1,70 @@
 body {
-  background-color: #dfecff;
+  /*Oryginalny kolor: */
+  /*background-color: #dfecff;*/
+  background-color: #171D16;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  /*background-image: radial-gradient(#303b2f, #171D16);*/
+  background-image: url("/chili-jalapeno-w-torebce.webp");
+  background-position: right;
+  background-size: contain;
+  background-repeat: repeat;
+  /*border: solid #A3E635;*/
+  text-shadow: 2px 2px #ffffff;
+}
+
+footer {
+  background-color: #000000;
+  color: #A3E635;
+  text-align: center;
+  font-family: 'Courier new', monospace;
+  padding: 10px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+  color: #A3E635;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Courier new', sans-serif;
+  color: #A3E635;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Futura', sans-serif;
+  color: #A3E635;
+  font-size: 35px;
+  font-weight: bold;
+  border-bottom: 3px solid #A3E635;
+}
+
+h3 {
+  font-family: 'Futura', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: #FDE047;
+}
+
+ul {
+  font-family: 'Futura', sans-serif;
+  color: #FDE047;
+}
+
+p {
+  font-family: 'Futura', sans-serif;
+  color: #E5E7EB;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 0 25px 0 25px;
 }
