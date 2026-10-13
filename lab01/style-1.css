@@ -9,7 +9,8 @@ body {
 
 header {
   /*background-image: radial-gradient(#303b2f, #171D16);*/
-  background-image: url("./chili-jalapeno-w-torebce.webp");
+  /*background-image: url("./chili-jalapeno-w-torebce.webp");*/
+  background-image: url(https://www.kamis.pl/-/media/project/oneweb/kampl22/product-packaging/2022-12/chili-jalapeno-w-torebce.webp?rev=77c7434f87844020a1e6819fb75a707e&vd=20260528T223226Z&extension=webp&hash=1371A9167838C9A0D207D5E86FB4849F);
   background-position: right;
   background-size: contain;
   background-repeat: repeat;
