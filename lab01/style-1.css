@@ -9,7 +9,7 @@ body {
 
 header {
   /*background-image: radial-gradient(#303b2f, #171D16);*/
-  background-image: url("/chili-jalapeno-w-torebce.webp");
+  background-image: url("./chili-jalapeno-w-torebce.webp");
   background-position: right;
   background-size: contain;
   background-repeat: repeat;

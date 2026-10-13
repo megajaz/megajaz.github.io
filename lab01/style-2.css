@@ -10,7 +10,7 @@ body {
 header {
   background-color: #FFFFFF;
   padding: 10px;
-  background-image: url("/pizza-pepperoni.png");
+  background-image: url("./pizza-pepperoni.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -32,7 +32,7 @@ h3 {
   font-family: 'Brush Script MT', cursive;
   font-size: 30px;
   text-align: center;
-  background-image: url("/quote.png");
+  background-image: url("./quote.png");
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;
