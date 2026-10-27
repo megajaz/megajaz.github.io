@@ -30,6 +30,7 @@ ul li {
   justify-content: space-between;
   align-items: center;
   gap: 12px;
+  width: 100%;
 }
 
 .input-area {
@@ -49,6 +50,23 @@ ul li {
   align-items: center;
   width: 100%;
   margin-bottom: 15px;
+}
+
+#tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.todo-container {
+  width: 100%;
+  max-width: 600px;
+  display:flex;
+}
+
+.todo-container span {
+  flex: 1;
 }
 
 mark {
