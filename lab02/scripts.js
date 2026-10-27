@@ -85,7 +85,6 @@ class Todo {
 
         // sprawdzanie daty
         const todayDate = new Date().setHours(0,0,0,0);
-        console.log(todayDate);
         if(inputDate !== '' && invalidInput == false) {
             var selectedDate = new Date(inputDate).setHours(0,0,0,0);
 
