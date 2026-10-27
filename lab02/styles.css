@@ -9,12 +9,14 @@ body {
   background-color: #f3fff3;
   display: flex;
   justify-content: center;
-  align-items: top;
+  align-items: flex-start;
   min-height: 100vh;
 }
 
 .container {
-  min-width: 80vh;
+  width: 80%;
+  max-width: 600px;
+  margin-top: 40px;
 }
 
 h1 {
@@ -27,13 +29,19 @@ ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 12px;
 }
 
 .input-area {
   display: flex;
   align-items: center;
-  justify-content: space-between; 
+  gap: 10px;
+  width: 100%;
   margin-bottom: 15px;
+}
+
+.input-area input {
+  flex: 1;
 }
 
 .task-search {
