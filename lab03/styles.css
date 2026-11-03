@@ -39,12 +39,7 @@ div.container {
 }
 
 .solve-area div {
-  border: 1px solid #e6f1fc;
-}
-
-
-.solve-area p {
-  background-color: aquamarine;
+  border: 1px solid #bebebe;
 }
 
 .container-puzzle {
@@ -52,11 +47,10 @@ div.container {
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: antiquewhite;
-  height: 30vh;
+  height: auto;
 }
 
 .container-puzzle div {
-  background-color: aqua;
   margin: 5px;
   width: 100%;
 }

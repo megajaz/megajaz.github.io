@@ -7,7 +7,7 @@ document.getElementById("btn-get-loc").addEventListener("click", function(event)
     }
 
     navigator.geolocation.getCurrentPosition(position => {
-        console.log(position);
+        // console.log(position);
         let lat = position.coords.latitude;
         let lon = position.coords.longitude;
 
@@ -28,7 +28,7 @@ document.getElementById("btn-save-map").addEventListener("click", function(event
             // kaplica oguem
         }
 
-        alert("Eksport zakonczony sukcesem (de iure).");
+        // alert("Eksport zakonczony sukcesem (de iure).");
         const pieces = [];
         const pieceWidth = Math.floor(canvas.width / 4);
         const pieceHeight = Math.floor(canvas.height / 4);
@@ -100,6 +100,8 @@ function checkPuzzle() {
             return;
         }
     }
+
+    console.log("Gratulacje uzytkowniku!");
 
     if (!("Notification" in window)) {
         // Check if the browser supports notifications
