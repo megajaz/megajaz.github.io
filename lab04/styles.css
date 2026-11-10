@@ -1,3 +1,83 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
 body {
-  background-color: #e6f1fc;
+    background-color: #e6f1fc;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.weather-container {
+    width: 90%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.search {
+    margin: 20px;
+}
+
+#inputCityName {
+    padding: 10px;
+    border: 1px solid #b5cce3;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#btnGetWheather {
+    padding: 10px 20px;
+    background-color: #438bc7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#city-err {
+    color: red;
+    font-size: 14px;
+}
+
+.weather-info {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+    align-items: flex-start;
+}
+
+.current {
+    background-color: white;
+    width: 40%;
+    min-height: 400px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.forecast {
+    background-color: #d4e6f7;
+    width: 60%;
+    height: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    overflow-y: auto;
+}
+
+
+.forecast div {
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.current img {
+    width: 100px;
+}
+
+.forecast img {
+    width: 60px;
 }
